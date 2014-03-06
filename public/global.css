@@ -1,38 +1,79 @@
 html *
 {
-    th {background-color: thistle; border: black solid 1px; text-align: left;
-        padding-left: 10px; padding-right: 10px; vertical-align: top;}
-    td {background-color: white; border: black solid 1pt; padding-left: 10px;
-        padding-right: 10px; vertical-align: top;}
-    table {width: 90%; border: 0px; cellpadding: 0px;}
+    /*th 
+    {
+        
+        border: black solid 1px; 
+        text-align: left;
+        padding-left: 10px; 
+        padding-right: 10px; 
+        vertical-align: top;
+        background-color: #CC0000;
+    }
+    td 
+    {
+        border: black solid 1pt; 
+        padding-left: 10px;
+        padding-right: 10px; 
+        vertical-align: top;
+        background-color: #CC0000;
+    }
+    table 
+    {
+        width: 90%; 
+        border: 0px; 
+        cellpadding: 0px;
+        background-color: #CC0000;
+    }*/
 }
+
+body 
+{ 
+  color: #FFFFFF;
+  background-color: #000000;
+  background-image:url('imagen_fondo.jpg'); 
+}
+
 #INPUT 
 {
     border: none; 
-    color: black;
+    color: #DDDDDD;
     font-family: monospace;
+    text-align: left;
     height: 1in;
     overflow: auto;
     /* padding: 0.5em; */
-    width: 80%;
-    background-color: #66FFCC; 
+    width: 60%;
+    background-color: #222222; 
 }
-body { background-color: #99FFFF; }
+
+
+
 #OUTPUT 
 {
-    background-color: #66FFCC; 
-    width: 80%;
+  text-align: left;
+  color: #DDDDDD;
+  background-color: #222222; 
+  width: 60%;
 }
 
 
-a {
+a 
+{
   font-size: x-large;
   text-decoration:none;
 }
 
-a:link { color:#00FFFF; }
-a:visited { color:black; }
-a:hover{ 
+a:link 
+{ 
+    color:#00FFFF; 
+}
+a:visited 
+{ 
+    color:black; 
+}
+a:hover
+{ 
   background-color:black; 
   color: #FFF;
 }
@@ -40,22 +81,26 @@ a:active {color:#0000FF;}  /* selected link */
 
 
 
-nav {
+nav 
+{
     text-align: center;
 }
 
-nav li {
+nav li 
+{
     list-style: none;
     display: inline;
     margin: 0 1em;
 }
 
-.mylink {
+.mylink 
+{
   background-color: #66FFCC;
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
-  border: 5px solid #009900;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 2px solid #009900;
   padding: 5px;
+  font-size: 150%;
 }
 
 /* Supress borders after the button is pressed */
