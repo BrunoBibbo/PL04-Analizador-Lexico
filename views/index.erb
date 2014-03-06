@@ -20,13 +20,14 @@
   
   <table class="tablaIN">
     
-    <tr>
+    <th>
       <p>
       Entrada
       </p>
-    </tr>
+    </th>
 
     <tr>
+    <td>
     <textarea id="INPUT" autofocus>
        var a = "hello"; // initialize a
        var b = function(x) 
@@ -35,10 +36,13 @@
           return x+c;
        };
     </textarea>
+    </td>
     </tr>
   
-    <tr>  
+    <tr>
+    <td>  
       <br><input id="PARSE" value=parse type=button class="mylink">
+    </td>
     </tr>
 
   </table>
@@ -46,10 +50,18 @@
   <br><br><br>
   
   <table class="tablaOUT">
-    <p>
-    Tokens
-    </p>
+    <th>
+      <p>
+        Tokens
+      </p>
+    <th>
+
+    <tr>
+    <td>
     <pre id=OUTPUT></pre>
+    </td>
+    </tr>
+    
   </table>
 
   </center>
