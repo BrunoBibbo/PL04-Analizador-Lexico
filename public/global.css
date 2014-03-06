@@ -26,6 +26,46 @@ html *
         background-color: #CC0000;
     }*/
 }
+h1
+{
+  color: #FFFFFF;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 2px solid #DDDDDD;
+  width: 750px;
+  background-color: #222222; 
+}
+h3
+{
+  color: #DDDDDD;
+}
+
+table.tablaIN
+{
+  border: 3px solid #DDDDDD;
+  color: #DDDDDD;
+  background-color: #222222; 
+}
+table.tablaOUT
+{
+  border: 3px solid #DDDDDD;
+  color: #DDDDDD;
+  background-color: #222222; 
+}
+th
+{
+  border-bottom: 3px solid #DDDDDD;
+  text-align: left;
+  color: #DDDDDD;
+  font-size: 150%;
+}
+td
+{
+  width: 1000px;
+  /*border: 1px solid #CC0000;*/
+  text-align: left;
+}
+
 
 body 
 { 
@@ -36,15 +76,20 @@ body
 
 #INPUT 
 {
-    border: none; 
-    color: #DDDDDD;
+    border-bottom: 3px solid #DDDDDD;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
     font-family: monospace;
     text-align: left;
     height: 1in;
     overflow: auto;
     /* padding: 0.5em; */
-    width: 60%;
-    background-color: #222222; 
+    width: 1000px;
+    height: 200px;
+    color: #CCBBFF;
+    background-color: #222222;
 }
 
 
@@ -52,9 +97,11 @@ body
 #OUTPUT 
 {
   text-align: left;
-  color: #DDDDDD;
-  background-color: #222222; 
-  width: 60%;
+  color: #99EEEE;
+  display: block;
+  height: 350px;
+  width: 1000px;
+  overflow: auto;
 }
 
 
@@ -95,12 +142,14 @@ nav li
 
 .mylink 
 {
-  background-color: #66FFCC;
+  color: #DDDDDD;
+  background-color: #3355AA;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  border: 2px solid #009900;
+  border: 2px solid #222222;
   padding: 5px;
   font-size: 150%;
+
 }
 
 /* Supress borders after the button is pressed */
