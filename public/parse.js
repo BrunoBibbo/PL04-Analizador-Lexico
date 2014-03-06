@@ -288,19 +288,30 @@ var make_parse = function () {
 
     infixr("&&", 30);
     infixr("||", 30);
+    
+    infixr("&", 35);
+    infixr("|", 35);
+    infixr("^", 35);
 
     infixr("===", 40);
     infixr("!==", 40);
+    infixr("==", 40);
+    infixr("!=", 40);
     infixr("<", 40);
     infixr("<=", 40);
     infixr(">", 40);
     infixr(">=", 40);
 
+    infixr("<<", 45);
+    infixr(">>", 45);
+    
     infix("+", 50);
     infix("-", 50);
 
     infix("*", 60);
     infix("/", 60);
+    infix("%", 60);
+    
 
     infix(".", 80, function (left) {
         this.first = left;
